@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-champagne text-charcoal font-sans antialiased;
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at top left, rgba(231, 101, 139, 0.35), transparent 55%),
+    radial-gradient(circle at bottom right, rgba(166, 59, 92, 0.35), transparent 60%);
+}
